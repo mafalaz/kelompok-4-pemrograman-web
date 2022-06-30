@@ -44,7 +44,13 @@
                   background-image: url('assets/images/upload/profile/1719111.jpg');
                   
                   background-size: 100%;
+                  background-position: center;
+                  background-repeat: no-repeat;
+                  background-attachment: fixed;
+                  background-size: cover;
                 }
+
+
               </style>
             </div>
           <section class="login_content">
@@ -70,9 +76,9 @@
               <div>
                 <input type="submit" name="login" class="btn btn-default submit pull-right" value="Login" />
               </div>
-              <div>
-                <input type="submit" formaction="<?php echo base_url() ?>daftar" name="daftar" class="btn btn-default submit pull-right" value="Daftar" />
-              </div>
+              <!--<div> <input type="submit" formaction=" echo base_url() ?>daftar" name="daftar" class="btn btn-default submit pull-right" value="Daftar" /> </div>-->
+              
+              
 
               <div class="clearfix"></div>
 

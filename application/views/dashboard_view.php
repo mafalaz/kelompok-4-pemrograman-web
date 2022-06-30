@@ -317,5 +317,3 @@ $(function () {
      
 });
 </script>
-
-

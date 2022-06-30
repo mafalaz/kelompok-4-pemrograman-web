@@ -37,7 +37,7 @@ class Dashboard extends CI_Controller {
 		);
 
 		$this->session->sess_destroy();
-		redirect('login');
+		redirect('welcome');
 	}
 
 	public function profile(){

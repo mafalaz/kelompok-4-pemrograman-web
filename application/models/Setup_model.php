@@ -5,7 +5,7 @@ class Setup_model extends CI_Model {
 
 	public function checkFirst(){
 		$query = $this->db->count_all('perpus');
-		if($query >= 0){
+		if($query == 0){
 			return true;
 		}else{
 			return false;
